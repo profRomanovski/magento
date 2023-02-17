@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="topics_list.xsd">
+  <topics_list>
+      <topic>
+          <value>Compliment</value>
+          <type>1</type>
+      </topic>
+      <topic>
+          <value>Battery problem</value>
+          <type>0</type>
+      </topic>
+  </topics_list>
+</config>

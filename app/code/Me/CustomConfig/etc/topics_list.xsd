@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="config">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="1" maxOccurs="unbounded" name="topics_list" type="topicsList" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="topicsList">
+        <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="unbounded" name="topic" type="topic" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="topic">
+        <xs:sequence>
+            <xs:element name="value" />
+            <xs:element name="type" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
