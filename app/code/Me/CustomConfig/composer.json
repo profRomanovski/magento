@@ -1,0 +1,23 @@
+{
+    "name": "me/custom-config",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": [],
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Me\\CustomConfig\\": ""
+        }
+    }
+}
+
