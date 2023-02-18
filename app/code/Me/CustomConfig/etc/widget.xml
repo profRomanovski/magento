@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="me_custom_config_topics" class="Me\CustomConfig\Block\Widget\Topics">
+        <label>Topics</label>
+        <description>Topics list</description>
+    </widget>
+</widgets>

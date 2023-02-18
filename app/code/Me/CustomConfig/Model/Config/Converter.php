@@ -16,7 +16,7 @@ class Converter implements ConverterInterface
      */
     public function convert($source): array
     {
-       $topics = $source->getElementsByTagName('topics_list');
+       $topics = $source->getElementsByTagName('topics');
        $topicsInfo = [];
        $iterator = 0;
        foreach ($topics as $topic) {

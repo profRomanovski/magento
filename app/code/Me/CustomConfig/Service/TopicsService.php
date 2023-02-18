@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Me\CustomConfig\Service;
 
-use Me\CustomConfig\Model\Config\Data as TopicsConfig;
+use Magento\Framework\Config\Data as TopicsConfig;
 
 /**
  * Class TopicsService provides topics list
